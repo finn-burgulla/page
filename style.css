@@ -1,0 +1,127 @@
+/* Add your styles here */
+body {
+    background-color: #b3c6e7; /* light blue */
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    color: #041e42; /* Georgetown blue */
+}
+h2 {
+    font-size: 27px;
+    color: #9fa2a6; /* Georgetown gray */
+}
+p 
+{
+    color: black; /* Georgetown blue */
+    text-align: center;
+}
+.profile-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 32px 24px;
+    max-width: 520px;
+    margin: 40px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.profile-card h3 {
+    text-align: center;
+}
+.profile-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0 0 0;
+    text-align: center;
+}
+.profile-card ul li {
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.profile-card ul li:last-child {
+    margin-right: 0;
+}
+.profile-card ul li a {
+    display: inline-block;
+    background: #041e42;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    cursor: pointer;
+}
+.profile-card ul li a:hover {
+    background: #223a5e;
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 4px 12px rgba(4,30,66,0.15);
+}
+
+/* Skills section styles */
+.skills-section {
+    background: #001a33; /* Georgetown Navy */
+    padding: 32px 0;
+    margin-top: 32px;
+    text-align: center;
+}
+.skills-section h1 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+.skills-section h2 {
+    color: #9fa2a6; /* Georgetown gray */
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+/* Skills card styles */
+.skills-card {
+    background: #001a33; /* Georgetown Navy */
+    border: 1px solid #223a5e;
+    border-radius: 12px;
+    padding: 32px 24px;
+    max-width: 520px;
+    margin: 32px auto 40px auto; /* reduced top margin for seamless look */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    text-align: center;
+}
+.skills-card h1 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 12px;
+    margin-top: 0; /* remove extra space above header */
+}
+.skills-card h2 {
+    color: #9fa2a6; /* Georgetown gray */
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+.skills-list button {
+    background: #041e42; /* Georgetown blue */
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+.skills-list button:hover {
+    background: #223a5e;
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 4px 12px rgba(4,30,66,0.15);
+}
