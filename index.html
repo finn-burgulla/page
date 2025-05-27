@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <!-- ...existing code... -->
-   <h1>Serafin Burgulla</h1>
-   <h2>Web Developer | AI Enthusiast</h2>
-   <p>Hi there. I am a computer science and mathematics double major from Georgetown University. I am currently learning how to build stuff from zero to one, and it is impact-oriented learning that drives my interests in making stuff work better — I apply all of this working in software development, business operations, nonprofit work, and a couple of other institutional settings. This summer, I’m further taking courses @ Georgetown and building AI projects that can sharpen my passion for building.</p>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#profile-card">Profile</a></li>
+            <li><a href="#skills-card">My Skills</a></li>
+            <li><a href="#experience-card">My Experience</a></li>
+        </ul>
+    </nav>
+    <div class="profile-card" id="profile-card">
+        <img src="img/me.png" alt="Serafin Burgulla" style="display:block;margin:0 auto 16px auto;width:100px;height:100px;border-radius:50%;">
+        <h1>Serafin Burgulla</h1>
+        <h2>Web Developer | AI Enthusiast</h2>
+        <p>Hi there. I am a computer science and mathematics double major at Georgetown University. I am currently learning how to build stuff from zero to one, and it is impact-oriented learning that drives my interests in making stuff work better — I apply all of this working in software development, business operations, nonprofit work, and a couple of other institutional settings.</p>
+        
+        <h3>My Favorite Websites</h3>
+        <ul>
+            <li><a href="https://www.niche.com/" target="_blank">Niche</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+            <li><a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a></li>
+            <li><a href="https://news.ycombinator.com/" target="_blank">Y Combinator News</a></li>
+        </ul>
+    </div>
+    <div class="skills-card" id="skills-card">
+        <h1>Skills</h1>
+        <img src="img/skills.png" alt="Skills" class="skills-img">
+        <h2>Here are some of the skills I have developed:</h2>
+        <div class="skills-list">
+            <button>CSS</button>
+            <button>HTML</button>
+            <button>JavaScript</button>
+            <button>GenerativeAI</button>
+            <button>Python</button>
+            <button>C++</button>
+            <button>Data Analytics</button>
+            <button>Machine Learning</button>
+        </div>
+    </div>
+    <div class="experience-card" id="experience-card">
+        <div class="experience-content">
+            <h1>My Experience</h1>
+            <img src="img/internship.PNG" alt="Internship" class="experience-img">
+            <div class="experience-paragraph-card">
+                <p>I am currently an Operations and Tech intern at GUASFCU, the nation's largest NCUA-accredited student-run credit union. Currently, I am working on improving the credit union's website using the latest trends of UI/UX and collaborating with the organization's marketing team.</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-note">
+        © 2025 Serafin Burgulla. All rights reserved.
+    </footer>
 </body>
 </html>
